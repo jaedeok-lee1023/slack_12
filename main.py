@@ -50,7 +50,7 @@ def main():
         notice_msg = (
             f"안녕하세요? 평택 클러스터 구성원 여러분!\n"
             f"\n"
-            f" *신규 입사자* 웰컴박스 불출 안내 드립니다.\n\n"
+            f"*신규 입사자* 웰컴박스 불출 안내 드립니다.\n\n"
             f"\n"
             f"*• 대상* : * (Click) (Click) :point_right: <https://docs.google.com/spreadsheets/d/1TCD-vMZekrLQsihs0kKJEFm2wCsWmtCjJquPCWRN9LQ/edit?gid=0#gid=0|웰컴박스 수령 대상자 명단>*\n"
             f"*• 장소* : *2층 통합사무실 인사총무_인사 (주말,공휴일 제외 / 10시 19시)*\n\n"
