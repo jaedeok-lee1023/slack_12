@@ -56,7 +56,7 @@ def main():
             f"\n"
             f"*신규 입사자* Welcome Kit 불출 안내 드립니다.\n\n"
             f"\n"
-            f"*• 대상* : *<https://docs.google.com/spreadsheets/d/1TCD-vMZekrLQsihs0kKJEFm2wCsWmtCjJquPCWRN9LQ/edit?gid=0#gid=0|웰컴키트 수령 대상자 명단>*\n"
+            f"*• 대상* : *<https://docs.google.com/spreadsheets/d/1TCD-vMZekrLQsihs0kKJEFm2wCsWmtCjJquPCWRN9LQ/edit?gid=0#gid=0|대상자 명단>*\n"
             f"*• 장소* : *2층 통합사무실 인사총무_인사 (주말,공휴일 제외 / 10시 19시)*\n"
             f"*:slack: 문의사항 : 인사총무 인사팀 담당자*\n\n"
             f"\n"
