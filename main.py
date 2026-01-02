@@ -47,18 +47,20 @@ def send_slack_message(message, channel):
 def main():
     for cluster in clusters:
         # 메시지 제목 설정
-        header = f":loudspeaker: *『인사총무팀 공지』* <!channel>\n\n"
+        header = f"*[공지｜신규 입사자 Welcome Kit 수령 안 ]*\n\n\n"
 
         notice_msg = (
-            f"안녕하세요? 평택 클러스터 구성원 여러분!\n"
+            f"1. *중요도* : 하\n"
+            f"2. *대상* : 평택 클러스터 신규 입사\n"
+            f"3. *주요 내용*\n\n"
             f"\n"
-            f"*신규 입사자* 웰컴박스 불출 안내 드립니다.\n\n"
+            f"*신규 입사자* Welcome Kit 불출 안내 드립니다.\n\n"
             f"\n"
-            f"*• 대상* : * (Click) (Click) :point_right: <https://docs.google.com/spreadsheets/d/1TCD-vMZekrLQsihs0kKJEFm2wCsWmtCjJquPCWRN9LQ/edit?gid=0#gid=0|웰컴박스 수령 대상자 명단>*\n"
-            f"*• 장소* : *2층 통합사무실 인사총무_인사 (주말,공휴일 제외 / 10시 19시)*\n\n"
+            f"*• 대상* : *<https://docs.google.com/spreadsheets/d/1TCD-vMZekrLQsihs0kKJEFm2wCsWmtCjJquPCWRN9LQ/edit?gid=0#gid=0|웰컴키트 수령 대상자 명단>*\n"
+            f"*• 장소* : *2층 통합사무실 인사총무_인사 (주말,공휴일 제외 / 10시 19시)*\n"
+            f"*:slack: 문의사항 : 인사총무 인사팀 담당자*\n\n"
             f"\n"
             f"감사합니다. 😊\n"
-            f"\n"
         )
  
 # 메시지 본문
